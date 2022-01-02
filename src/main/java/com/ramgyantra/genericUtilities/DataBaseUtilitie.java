@@ -16,7 +16,7 @@ public class DataBaseUtilitie {
 		Driver dref = new Driver();
 		DriverManager.registerDriver(dref);
 		try {
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/students", "root", "root");
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/projects", "root", "root");
 		} catch (SQLException e) {
 			
 			e.printStackTrace();
